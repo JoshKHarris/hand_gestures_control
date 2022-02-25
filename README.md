@@ -1,5 +1,11 @@
 # hand_gestures_control
 
+#TODO: fixes
+- dont crash when out of scope
+- dont require hand in scope to launch
+- dont require key press when switching applications (application pauses)
+
+
 #TODO: Better describe the project
 Description:
 Creating a virtual mouse via hand gestures through the webcam.
@@ -11,6 +17,7 @@ Features:
 - right click
 - scroll up/down
 - zoom in/out
+- click and drag (to draw, maybe)
 
 #TODO: List dependencies to be installed, as well as a step-by-step guide to get the project up and running
 Dependencies:

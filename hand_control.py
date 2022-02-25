@@ -13,6 +13,7 @@ import autopy
 ##########################
 wCam, hCam = 640, 480
 frameR = 100 # Frame Reduction
+[4, 487, 450]
 smoothening = 7
 #########################
  
