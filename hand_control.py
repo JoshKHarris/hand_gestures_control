@@ -6,7 +6,7 @@
 
 import cv2
 import numpy as np
-import HandTrackingModule as htm
+import track_hand as htm
 import time
 import autopy
  
