@@ -13,7 +13,6 @@ import autopy
 ##########################
 wCam, hCam = 640, 480
 frameR = 100 # Frame Reduction
-[4, 487, 450]
 smoothening = 7
 #########################
  
@@ -21,7 +20,7 @@ pTime = 0
 plocX, plocY = 0, 0
 clocX, clocY = 0, 0
  
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 cap.set(3, wCam)
 cap.set(4, hCam)
 detector = htm.handDetector(maxHands=1)
